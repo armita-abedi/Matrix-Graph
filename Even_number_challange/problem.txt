@@ -1,0 +1,15 @@
+Create a function that takes a string as a parameter that will check if there are exactly 3 exclamation points between two even numbers. If so, the program should return true, otherwise it should return false. If there aren't any even numbers or exclamation points, it should also return false. The string will contain digits, letters, and exclamation points. Letters can be considered as empty space and should not be taken into account.
+
+For example, "edf5dj!!b2mc!h!!4orx" should return true because 2 and 4 are separated by 3 exclamation points but "3fg!!k16" should return false
+
+Input Format: Input format is one string of letters, digits, and exclamation points
+
+Constraints: If there are no exclamation points, the program should return false. If there are no even numbers, the program should return false. The string given will only contain letters, integers, and exclamation points.
+
+Output Format: Output format should be true or false
+
+Sample Input 0: "as3d!4r!dk!!k8s!dd1"
+Sample Output 0: True
+
+Sample Input 1: "1!2sdre2!3"
+Sample Output 1: False
